@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ------------- Configurando o fundo da página - Body ----------------*/
+
+body {
+    background-color: rgba(69, 33, 154, 0.839);
+
+}
+
+.fundo {
+    height: 785px;
+    width: 1318px;
+    background-image: url(../images/bg-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main {
+    display: flex;
+}
+
+/* ------------- Configurando o Logo e a Imagen ilustrativa ---------*/
+
+figure {
+    margin-left: 75px;
+}
+
+.logo {
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+.chat {
+    margin-top: 75px;
+}
+
+/* -------------- Configuração da descrição lateral ----------- */
+
+article {
+    height: 300px;
+    color: aliceblue;
+    font-family: 'Open Sans';
+    margin-left: 70px;
+    margin-top: 120px;
+}
+
+article h1 {
+    font-size: 40px;
+    line-height: 58px;
+    margin-bottom: 20px;
+}
+
+article p {
+    width: 600px;
+    font-size: 21px;
+    color:rgba(240, 248, 255, 0.808);
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+    /* Configurando o Botão da descrição */
+
+article button {
+    height: 50px;
+    width: 200px;
+    border-radius: 25px;
+    border: none;
+    font-size: 18px;
+    color: rgba(69, 33, 154, 0.839);
+    box-shadow: 5px 5px 1em rgba(0, 0, 0, 0.5);
+}
+
+article button:hover {
+    cursor: pointer;
+    background-color: violet;
+    color: aliceblue;
+    transition: .3s ease-out;
+}
+
+/* ---------------- Configurando o Rodapé ----------------- */
+
+footer {
+    color: aliceblue;
+    width: 1318px;
+    margin-left: 100px;
+}
+
+.attribution { 
+    font-size: 15px; 
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    margin-top: 20px; 
+}
+
+.attribution a { 
+    color: violet; 
+    font-weight: bolder; 
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    color: rgb(43, 58, 226);
+    font-size: 17px;
+    transition: .4s ease all;
+}

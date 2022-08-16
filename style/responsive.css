@@ -1,0 +1,270 @@
+
+
+/* --------------- Para telas com um tamanho maiores que 1600 pixels ------------------*/
+
+@media screen and (min-width: 1601px){
+    .fundo {
+        width: auto;
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+        box-shadow: 10px 10px 10px 1em rgba(69, 33, 154, 0.839);
+        
+    }    
+}
+
+/* ----------------- Para telas com um tamanho maiores que 2000 pixels ------------ */
+
+@media screen and (min-width: 2000px){
+    .fundo {
+        max-width: 1700px;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5%;
+        margin-bottom: 5%;       
+    }
+}
+
+@media screen and (max-width: 1470px) and (min-width: 1231px) {
+
+
+    main {
+        width: 100%;
+    }
+
+    .fundo {
+        width: 100%;
+        background-size: auto;
+    }
+
+    .logo {
+        width: 200px;
+    }
+
+    figure {
+        margin-left: 80px;
+    }
+
+    .chat {
+        width: 700px;
+    }
+
+
+
+    article h1{
+        font-size: 32px;
+    }
+
+    article p {
+        font-size: 16px;
+        width: 450px;
+    }
+    
+}
+
+/* -------------------------- 1230 PIXELS OU MENOS ------------------------------*/
+
+
+@media screen and (max-width: 1230px) {
+    body{
+        width: auto;        
+        
+    }
+
+    .fundo {
+        width: auto;
+        height: 100%;
+        background-size: cover;
+        margin-left: 0px;
+        
+    
+    }
+
+    .logo {
+        width: 200px;
+        margin-left: 100px;
+    }
+
+    figure {
+        height: 470px;
+    }
+
+    .chat {
+        width: 530px;
+
+        margin-left: 20px;
+        margin-right: 0px;
+    }
+
+    /* configuração de texto */
+
+    article {
+        font-size: 12px;
+        margin-left: 30px;
+        width: 300px;
+        height: 300px;
+    }
+
+    article h1 {
+        font-size: 25px;
+        line-height: normal;
+    }
+
+    article p {
+        font-size: 16px;
+        width: 400px;
+        line-height: 25px;
+
+    }
+
+    /* configuração do botão */
+
+    article button {
+        width: 150px;
+        height: 40px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    /* configuração do FOOTER */
+
+    footer {
+        max-width: 1100px;
+        width: 100%;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    .attribution {
+        margin-top: 80px;
+        padding-bottom: 50px;
+    }
+}
+
+/* ------------------------- 770 PIXELS OU MENOS (TABLETS) -----------------------*/
+
+@media screen and (max-width: 768px){
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fundo {
+        background-image: url(../images/bg-mobile.svg);
+        background-size: contain;
+        display: flex;
+        flex-direction:column;
+    }
+
+    /* Configurações das IMAGENS */
+
+    .logo {
+        margin-top: 20px;
+        width: 30%;
+        margin-left: 30px;
+    }
+
+    .chat {
+        margin-top: 40px;
+        width: 80%;
+        height: max-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    figure {      
+        width: auto;  
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Configurações do ARTIGO DE TEXTO */
+
+    article {
+
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 400px;
+
+        text-align: center;
+    }
+
+    article h1 {
+        font-size: 35px;
+    }
+
+    article p {
+
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    article button {
+        width: 250px;
+        height: 50px;
+    }
+
+    /* Configurações do FOOTER */
+
+    .attribution {
+        margin-top: 80px;
+        padding: 20px;
+    }
+}
+
+/* ------------------------------- 440 PIXELS OU MENOS ----------------------- */
+
+@media screen and (max-width: 440px){
+
+    /* Configuração das IMAGENS */
+
+    figure {
+        height: 330px;
+    }
+
+    .logo {
+        margin-top: 40px;
+        width: 150px;
+    }
+
+    .chat{
+        margin-top: 60px;
+        width: 80%;
+    }
+
+    /* Configuração dos TEXTOS */
+
+    article {
+        margin-top: 25px;
+        width: 80%;
+    }
+
+    article h1 {
+        font-size: 26px;
+        line-height: 45px;
+    }
+
+    article p {
+        width: auto;
+        line-height: 26px;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    /* Configuração do BOTÃO */
+
+    article button {
+        box-shadow: 1px 1px 1em rgba(69, 33, 154, 0.839);
+    }
+
+
+}
+
+
+
